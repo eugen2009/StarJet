@@ -18,7 +18,8 @@ html, body{
 }
 
 .backgroundImage{
-  background-size: cover;
+  background-size: auto 100%;
+  width: auto;
 
 }
 #spaceship {
