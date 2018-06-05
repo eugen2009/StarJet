@@ -3490,9 +3490,12 @@ W.J(w.a,w.b,F.hn(),!1,H.V(w,0))
 y.querySelector("#sampleText").textContent="test1"
 P.cr(C.h,new F.hp())},"$0","d3",0,0,2],
 iL:[function(a){var z,y,x
-z=document.querySelector("#playButton").style
+z=document
+y=z.querySelector("#viewport").style
+y.visibility="fullscreen"
+z=z.querySelector("#playButton").style
 z.visibility="hidden"
-for(y=0;z=$.aE,x=z.d,y<x.length;++y)x[y].D(0,2)
+for(x=0;z=$.aE,y=z.d,x<y.length;++x)y[x].D(0,220)
 z.f.D(0,2)
 $.aE.e.co()
 $.aE.cL()},"$1","hn",2,0,14],
