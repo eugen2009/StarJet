@@ -1,35 +1,42 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
 
-
-html, body{
+html, body {
   width: 100%;
   height: 100%;
   top: 0;
-  left:0;
+  left: 0;
 
-  overflow: hidden!important;
-  overflow-x: hidden!important;
-  overflow-y: hidden!important;
+  overflow: hidden !important;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
 }
 
 #wrapper {
-  overflow: hidden!important;
+  overflow: hidden !important;
 }
 
-.backgroundImage{
+.backgroundImage {
   background-size: auto 100%;
   width: auto;
 
 }
+
 #spaceship {
   position: absolute;
   left: 0;
-  background-image: url('../res/rocket.png');
   background-size: cover;
+  background-position: center;
+}
+
+#laser {
+  position: absolute;
+  opacity: 10;
+  background-size: cover;
+  background-position: center;
 }
 
 #meteor {
@@ -58,11 +65,11 @@ h1 {
   text-shadow: 4px 4px 4px #060002;
 }
 
-#mainButtons{
+#mainButtons {
   text-align: center;
 }
-#fuelText, #highscoreText{
 
+#fuelText, #highscoreText {
 
 }
 
