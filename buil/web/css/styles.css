@@ -32,6 +32,14 @@ html, body {
   background-position: center;
 }
 
+#fuelGauge{
+  border: 2px silver solid;
+  padding: 1px;
+  width: 30%;
+  height: 20px;
+  /*background: linear-gradient(to right, blue 50%, transparent 50%);*/
+}
+
 #laser {
   position: absolute;
   opacity: 10;
