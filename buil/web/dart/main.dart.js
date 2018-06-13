@@ -3561,11 +3561,13 @@ y.top="0px"
 z=z.style
 y=""+this.ch.r.a+"px"
 z.width=y
-z=this.Q.style
-y=$.q
-if(typeof y!=="number")return y.aK()
-y=""+(y-20)+"px"
-z.top=y},
+z=this.Q
+y=z.style
+x=$.q
+if(typeof x!=="number")return x.aK()
+x=""+(x-20)+"px"
+y.top=x
+z.style.backgroundColor},
 d8:function(){P.z(P.E(0,0,0,1,0,0),new O.f6(this))},
 da:function(){var z,y,x,w
 for(z=this.c,y=0;y<z.length;++y){x={}
@@ -3651,11 +3653,11 @@ y.top=x
 y=z.Q
 x=y.style
 w=""+(100-C.e.C(z.ch.d.e))+"%"
-x.paddingRight=w
-y=y.style
-y.marginRight="50%"
+x.marginRight=w
 z.r.textContent="Fuel: "+C.e.d9(z.ch.d.e,1)
-z.x.textContent="Highscore: "+z.ch.c
+x=z.ch
+if(x.d.e<10)y.style.backgroundColor
+z.x.textContent="Highscore: "+x.c
 z.U()}},f7:{"^":"c:0;a,b,c",
 $1:function(a){var z,y
 if(++this.a.a===3){z=$.$get$x()
@@ -3687,7 +3689,7 @@ $.aD=x
 w.cz()
 $.d7=w
 x=document
-v=new O.f3(0,0,[],x.querySelector("#meteor"),x.querySelector("#spaceship"),x.querySelector("#fuelstation"),x.querySelector("#fuelText"),x.querySelector("#highscoreText"),x.querySelector("#body"),x.querySelector("#laser"),x.querySelector("#fuelGauge"),null)
+v=new O.f3(0,0,[],x.querySelector("#meteor"),x.querySelector("#spaceship"),x.querySelector("#fuelstation"),x.querySelector("#fuelText"),x.querySelector("#highscoreText"),x.querySelector("#body"),x.querySelector("#laser"),x.querySelector("#fuelGaugeInner"),null)
 v.ch=w
 v.d8()
 v.cA()
