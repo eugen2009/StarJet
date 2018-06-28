@@ -1,0 +1,26 @@
+[
+    {
+      "level": 1,
+      "nextLevelValue": 10,
+      "speedIncrease": 1,
+      "maxSpeed": 5
+    },
+    {
+      "level": 2,
+      "nextLevelValue": 14,
+      "speedIncrease": 1,
+      "maxSpeed": 8
+    },
+    {
+      "level": 3,
+      "nextLevelValue": 18,
+      "speedIncrease": 1,
+      "maxSpeed": 10
+    },
+    {
+      "level": 4,
+      "nextLevelValue": 23,
+      "speedIncrease": 1,
+      "maxSpeed": 13
+    }
+  ]

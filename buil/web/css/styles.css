@@ -106,6 +106,7 @@ html, body {
   position: absolute;
   left: 0;
   background-image: url('../res/Fuelstation.png');
+  background-position: center;
   background-size: cover;
 }
 
@@ -145,6 +146,17 @@ h1 {
   text-shadow: 4px 4px 4px #060002;
 }
 
+#levelTransitionText {
+  position: absolute;
+  font-size: 250%;
+  top: 30%;
+  left: 3%;
+  right: 3%;
+  color: #ff353b;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 4px 4px 4px #060002;
+}
+
 #levelText{
   z-index: 10020;
   position: absolute;
@@ -161,7 +173,8 @@ h1 {
 }
 
 #playButton {
-    background: transparent;
+  position: center;
+  background: transparent;
   -webkit-border-radius: 5;
   -moz-border-radius: 5;
   border-radius: 5px;
@@ -171,6 +184,28 @@ h1 {
   padding: 7px 40px 7px 40px;
   text-decoration: none;
   margin-top: 30%;
+  z-index: 100;
+}
+
+#playButton:hover {
+  color: #787878;
+  text-decoration: none;
+}
+
+#replayButton {
+  position: relative;
+  background: transparent;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 7px 40px 7px 40px;
+  text-decoration: none;
+  margin-top: 30%;
+  visibility: hidden;
+  z-index: 90;
 }
 
 #playButton:hover {
