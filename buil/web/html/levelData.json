@@ -7,19 +7,19 @@
     },
     {
       "level": 2,
-      "nextLevelValue": 14,
+      "nextLevelValue": 30,
       "speedIncrease": 1,
       "maxSpeed": 8
     },
     {
       "level": 3,
-      "nextLevelValue": 18,
+      "nextLevelValue": 60,
       "speedIncrease": 1,
       "maxSpeed": 10
     },
     {
       "level": 4,
-      "nextLevelValue": 23,
+      "nextLevelValue": 90,
       "speedIncrease": 1,
       "maxSpeed": 13
     }
