@@ -144,7 +144,7 @@ h1 {
   color: #ff353b;
   font-family: 'Press Start 2P', cursive;
   text-shadow: 4px 4px 4px #060002;
-  z-index: 100;
+  z-index: 1;
 }
 
 #levelTransitionText {
@@ -174,7 +174,7 @@ h1 {
 }
 
 #playButton {
-  position: center;
+  position: absolute;
   background: transparent;
   -webkit-border-radius: 5;
   -moz-border-radius: 5;
