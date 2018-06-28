@@ -175,6 +175,7 @@ h1 {
 
 #playButton {
   position: absolute;
+  margin: auto;
   background: transparent;
   -webkit-border-radius: 5;
   -moz-border-radius: 5;
