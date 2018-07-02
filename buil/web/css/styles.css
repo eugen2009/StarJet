@@ -185,7 +185,7 @@ h1 {
   font-size: 20px;
   padding: 7px 40px 7px 40px;
   text-decoration: none;
-  margin-top: 60%;
+  margin-top: 30%;
   z-index: 100;
 }
 
@@ -246,7 +246,10 @@ h1 {
   height: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
+  #playButton {
+    margin-top: 60%;
+  }
   @media (orientation: landscape) {
     #landscape {
       display: block;
